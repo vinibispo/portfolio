@@ -45,6 +45,16 @@ const Header: React.FC = () => {
               </NextLink>
             </ListItemText>
           </ListItem>
+
+          <ListItem>
+            <ListItemText
+              style={{ textTransform: 'uppercase', fontWeight: 'bold' }}
+            >
+              <NextLink href="/contact">
+                <Link href="/contact">Contact</Link>
+              </NextLink>
+            </ListItemText>
+          </ListItem>
         </List>
       </Toolbar>
     </AppBar>
