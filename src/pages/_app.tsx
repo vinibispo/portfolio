@@ -1,7 +1,7 @@
 import { CssBaseline, ThemeProvider } from '@material-ui/core';
 import { AppProps } from 'next/app';
 import React, { useEffect } from 'react';
-import { theme } from './_theme';
+import { theme } from '../theme';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
